@@ -8,3 +8,5 @@ https://easyeda.com/Frederic98/esp8266-led-controller
 
 One of the python scripts controls a standby and a mute input of an audio amplifier, and plays internet radio streams. Another functions as a wakeup light, constantly sending an increasing brightness value to an ESP8266 when triggered. The third script is a service that converts MQTT messages back and forth between an ascii text, and a binary value.  
 All python scripts are run as a systemd service.
+
+A separate repository contains some node-red flows to couple some events: https://github.com/Frederic98/DeskController-nodered.
